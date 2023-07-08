@@ -22,6 +22,8 @@ Once the coefficients are estimated, the logistic regression model can be used t
 
 Logistic regression has various extensions, such as multinomial logistic regression for multi-class classification problems and ordinal logistic regression for ordered categorical outcomes. It is a popular and widely used algorithm due to its simplicity, interpretability, and effectiveness in many practical applications.
 
+![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/ad982eaa-13be-4d89-ab54-e6afff58f0ee)
+
 
 
 
