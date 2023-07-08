@@ -22,6 +22,14 @@ Once the coefficients are estimated, the logistic regression model can be used t
 
 Logistic regression has various extensions, such as multinomial logistic regression for multi-class classification problems and ordinal logistic regression for ordered categorical outcomes. It is a popular and widely used algorithm due to its simplicity, interpretability, and effectiveness in many practical applications.
 
+## 2. Logistic Regression Function
+Logistic regression is a statistical model that uses the logistic function, or logit function, in mathematics as the equation between x and y. The logit function maps y as a sigmoid function of x.
+
+                                  ![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/9fef7fc3-0e21-46b5-b509-191f8551fb13)
+
+
+
+
 
 
 
