@@ -25,7 +25,7 @@ Logistic regression has various extensions, such as multinomial logistic regress
 ## 2. Logistic Regression Function
 Logistic regression is a statistical model that uses the logistic function, or logit function, in mathematics as the equation between x and y. The logit function maps y as a sigmoid function of x.
 
-![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/f427d5d5-2019-4061-a687-ddb73a8fbfc4)
+![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/e802d0d6-e5fd-41eb-8df4-56db01552cec)
 
 when you plot this function you will have S-curve
 
