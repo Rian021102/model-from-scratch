@@ -42,6 +42,9 @@ then subtitute the linear equation to logistic regression will give us:
 
 ![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/a415406b-ecff-4451-88bd-95601b13ce54)
 
+## 3. Loss/Cost Function
+
+
 
 
 
