@@ -31,6 +31,20 @@ when you plot this function you will have S-curve
 
 ![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/ed146ace-3a35-418f-9aa1-ec91fe9f2e2a)
 
+Now if we take how we find y values in linear regression:
+y=w.X + b,
+
+where
+w=weight
+b=bias
+
+then subtitute the linear equation to logistic regression will give us:
+
+![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/a415406b-ecff-4451-88bd-95601b13ce54)
+
+
+
+
 
 
                               
