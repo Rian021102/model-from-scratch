@@ -27,6 +27,11 @@ Logistic regression is a statistical model that uses the logistic function, or l
 
 ![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/f427d5d5-2019-4061-a687-ddb73a8fbfc4)
 
+when you plot this function you will have S-curve
+
+![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/ed146ace-3a35-418f-9aa1-ec91fe9f2e2a)
+
+
 
                               
 
@@ -41,3 +46,4 @@ Logistic regression is a statistical model that uses the logistic function, or l
 
 # sources:
 1. https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
+2. https://aws.amazon.com/what-is/logistic-regression/
