@@ -43,7 +43,12 @@ then subtitute the linear equation to logistic regression will give us:
 ![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/a415406b-ecff-4451-88bd-95601b13ce54)
 
 ## 3. Loss/Cost Function
-In parametric machine learning algorithm, loss/cost function is needed, of which we want to minimize (to find global minimum of) to determine the optimal parameters of w and b, therefore we will have the best predictions. In linear regression, the loss function is mean square error (MSE).
+In parametric machine learning algorithm, loss/cost function is needed, of which we want to minimize (to find global minimum of) to determine the optimal parameters of w and b, therefore we will have the best predictions. In linear regression, the cost function is Mean Square Error (MSE):
+
+
+![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/0f0d6db9-915a-4c13-8f18-1ed5afbd9e2a)
+
+
 
 
 
@@ -66,3 +71,4 @@ In parametric machine learning algorithm, loss/cost function is needed, of which
 # sources:
 1. https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
 2. https://aws.amazon.com/what-is/logistic-regression/
+3. https://www.analyticsvidhya.com/blog/2020/11/binary-cross-entropy-aka-log-loss-the-cost-function-used-in-logistic-regression/
