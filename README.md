@@ -89,22 +89,25 @@ class LogitRegression05:
     fit(X, Y):
         randomly select "k" features from total "m" features
         where k << m
-        repeat until "l" number of nodes has been reached:
-            among the "k" features, calculate the node "d" using the best split point
-            split the node into daughter nodes using the best split
+        repeat until convergence:
+            compute the cost using selected features
+            update the weights based on the cost
 
-        build forest by repeating for "n" number of times:
-            randomly select "k" features from total "m" features
-            where k << m
-            repeat until "l" number of nodes has been reached:
-                among the "k" features, calculate the node "d" using the best split point
-                split the node into daughter nodes using the best split
-          
+    compute_cost(X, Y, W, b):
+        calculate the activation values
+        compute the cost based on the logistic regression cost function
+        return the cost
+
+    update_weights(X, Y, W, b):
+        calculate the activation values
+        compute the gradients of the weights and bias
+        update the weights and bias using the gradients
+
     predict(X):
-        randomly select "k" features from total "m" features
-        where k << m
-        among the "k" features, calculate the node "d" using the best split point
-        return the prediction based on the random forest model
+        calculate the activation values
+        make predictions based on the activation values
+        return the predictions
+
 
 
 
