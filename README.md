@@ -57,6 +57,8 @@ However, when we use logistic regression, the cost function will result like thi
 
 
 For binary classification problem, we need to be able for output to being either 0 or 1, hence the cost function for logistic regression becomes:
+
+
 ![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/f707e4d2-5409-4c90-a7bb-31da7af04ef3)
 
 
