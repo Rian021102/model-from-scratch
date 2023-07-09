@@ -78,6 +78,7 @@ For optmization logistic regression cost function, we use gradient descent, whic
 ### A. Pseudocode
 
 
+
 class LogitRegression05:
     initialize:
         learning_rate = 0.001
@@ -107,6 +108,8 @@ class LogitRegression05:
 
 
 ### B. Code in Python
+
+first we initialize the function where:
 
 
 
