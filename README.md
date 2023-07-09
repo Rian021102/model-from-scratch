@@ -77,13 +77,13 @@ For optmization logistic regression cost function, we use gradient descent, whic
 
 ### A. Pseudocode
 
-
+```
 
 class LogitRegression05:
     initialize:
         learning_rate = 0.001
         iterations = 1000
-    
+```
     fit(X, Y):
         randomly select "k" features from total "m" features
         where k << m
@@ -111,14 +111,14 @@ class LogitRegression05:
 
 first we initialize the function where:
 
-
+```
 
 class LogitRegression05:
     initialize:
         learning_rate = 0.001
         iterations = 1000
     
-    
+```
 
 This is where:
 calculates the cost of the logistic regression model. It first computes the activation values A using the sigmoid function applied to the linear combination of input features (self.X), weights (self.W), and bias (self.b). Then, it computes the cost using the logistic regression cost function formula. It calculates the negative log-likelihood of the predicted probabilities A compared to the true labels self.Y.
