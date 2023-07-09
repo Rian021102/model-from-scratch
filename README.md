@@ -76,8 +76,13 @@ For optmization logistic regression cost function, we use gradient descent, whic
 
 
 ### A. Pseudocode
-
-fit(X, Y):
+`
+class LogitRegression05:
+    initialize:
+        learning_rate = 0.001
+        iterations = 1000
+    
+    fit(X, Y):
         randomly select "k" features from total "m" features
         where k << m
         repeat until "l" number of nodes has been reached:
@@ -96,12 +101,7 @@ fit(X, Y):
         where k << m
         among the "k" features, calculate the node "d" using the best split point
         return the prediction based on the random forest model
-
-
-    def compute_cost(self):
-        A = 1 / (1 + np.exp(-(self.X.dot(self.W) + self.b)))
-        cost = -(1/self.m) * np.sum(self.Y * np.log(A) + (1 - self.Y) * np.log(1 - A))
-        return cost
+`
 
 ### B. Code in Python
 
