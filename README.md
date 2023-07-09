@@ -48,6 +48,15 @@ In parametric machine learning algorithm, loss/cost function is needed, of which
 
 ![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/0f0d6db9-915a-4c13-8f18-1ed5afbd9e2a)
 
+which result when plotted:
+![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/f5797751-1144-4c1c-af9a-862dabc2f7a6)
+
+However, when we use logistic regression, the cost function will result like this when plotted:
+
+![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/1968f9e4-ba68-4692-9277-0449d62da002)
+
+
+
 
 
 
