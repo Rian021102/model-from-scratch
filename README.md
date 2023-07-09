@@ -76,7 +76,8 @@ For optmization logistic regression cost function, we use gradient descent, whic
 
 
 ### A. Pseudocode
-`
+
+
 class LogitRegression05:
     initialize:
         learning_rate = 0.001
@@ -101,9 +102,13 @@ class LogitRegression05:
         where k << m
         among the "k" features, calculate the node "d" using the best split point
         return the prediction based on the random forest model
-`
+
+
+
 
 ### B. Code in Python
+
+
 
 class LogitRegression05:
     initialize:
@@ -116,6 +121,8 @@ This is where:
 calculates the cost of the logistic regression model. It first computes the activation values A using the sigmoid function applied to the linear combination of input features (self.X), weights (self.W), and bias (self.b). Then, it computes the cost using the logistic regression cost function formula. It calculates the negative log-likelihood of the predicted probabilities A compared to the true labels self.Y.
 
 The update_weights method performs the weight and bias updates based on the gradients of the cost function. It first computes the activations A using the same sigmoid function. Then, it calculates the difference between the predicted activations and the true labels (tmp). It reshapes tmp to match the shape of the weights. Next, it calculates the gradients of the weights (dW) and bias (db) using matrix multiplication and summation operations. Finally, it updates the weights and bias by subtracting the learning rate (self.learning_rate) multiplied by the gradients.
+
+
     def update_weights(self):
         A = 1 / (1 + np.exp(-(self.X.dot(self.W) + self.b)))
         tmp = (A - self.Y.T)
@@ -127,6 +134,8 @@ The update_weights method performs the weight and bias updates based on the grad
         return self
 
 The fit method is used to train the logistic regression model. It takes input features X and corresponding labels Y. Inside the method, the shape of the input data is determined to get the number of training examples (self.m) and the number of features (self.n). The weights self.W and bias self.b are initialized with zeros. The input data X and labels Y are stored in variables self.X and self.Y respectively. self.cost_history is an empty list that will store the cost at each iteration during training.
+
+
         for i in range(self.iterations):
             cost = self.compute_cost()
             self.cost_history.append(cost)
@@ -134,11 +143,15 @@ The fit method is used to train the logistic regression model. It takes input fe
 
 The predict method is used to make predictions using the trained model. It takes input features X and computes the activations Z using the sigmoid function. It then sets the predicted labels Y to 1 where the activations are greater than 0.5, and 0 otherwise.
     def predict(self, X):
+
+    
         Z = 1 / (1 + np.exp(-(X.dot(self.W) + self.b)))
         Y = np.where(Z > 0.5, 1, 0)
         return Y
 
 The score method calculates the accuracy of the model's predictions. It takes input features X and true labels y. It uses the predict method to get the predicted labels and compares them with the true labels. It calculates the accuracy as the ratio of the number of correct predictions to the total number of examples.
+
+
     def score(self, X, y=None):
         predictions = self.predict(X)
         accuracy = np.sum(predictions == y) / len(y)
