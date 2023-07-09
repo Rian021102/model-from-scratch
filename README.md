@@ -72,7 +72,7 @@ For optmization logistic regression cost function, we use gradient descent, whic
 
 ![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/7adc4ea7-1422-4f0b-9cb0-1b9c709994a7)
 
-## 2. Put all the equations above into code
+## 2. Put all the equations into code
 
 
 
