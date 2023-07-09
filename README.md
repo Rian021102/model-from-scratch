@@ -63,6 +63,11 @@ For binary classification problem, we need to be able for output to being either
 
 ![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/f707e4d2-5409-4c90-a7bb-31da7af04ef3)
 
+where after subtituting the cost function with log function, the cost function for logistic regression becomes:
+
+![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/e691d667-7b3f-4c27-8950-c6564e60883c)
+
+
 
 
 
