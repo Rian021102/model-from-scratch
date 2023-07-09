@@ -71,9 +71,7 @@ where after subtituting the cost function with log function, the cost function f
 For optmization logistic regression cost function, we use gradient descent, which updates the parameters based on the gradients of the cost function with respect to the parameters by minimizing cost function, with function as follow:
 
 
-
-![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/7adc4ea7-1422-4f0b-9cb0-1b9c709994a7)
-
+![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/884ad818-a700-4617-91d1-e949d4c38adc)
 
 
 ## 2. Put all the equations into code
