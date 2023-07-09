@@ -42,7 +42,7 @@ then subtitute the linear equation to logistic regression will give us:
 
 ![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/a415406b-ecff-4451-88bd-95601b13ce54)
 
-## 3. Loss/Cost Function
+### A. Loss/Cost Function
 In parametric machine learning algorithm, loss/cost function is needed, of which we want to minimize (to find global minimum of) to determine the optimal parameters of w and b, therefore we will have the best predictions. In linear regression, the cost function is Mean Square Error (MSE):
 
 
@@ -66,6 +66,17 @@ For binary classification problem, we need to be able for output to being either
 where after subtituting the cost function with log function, the cost function for logistic regression becomes:
 
 ![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/e691d667-7b3f-4c27-8950-c6564e60883c)
+
+### B. Gradient Descent
+For optmization logistic regression cost function, we use gradient descent, which updates the parameters based on the gradients of the cost function with respect to the parameters by minimizing cost function, with function as follow:
+
+![image](https://github.com/Rian021102/model-from-scratch/assets/108880724/7adc4ea7-1422-4f0b-9cb0-1b9c709994a7)
+
+## 2. Put all the equations above into code
+
+
+
+
 
 
 
